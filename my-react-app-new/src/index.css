@@ -1,0 +1,78 @@
+body {
+  font-family: Arial;
+  ;
+}
+
+.card {
+  font-family: Arial;
+  background-color: hsl(0, 0%, 95%);
+  border: 1px solid hsla(0, 0%, 0%, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  max-width: 200px;
+  min-width: 150px;
+  display: inline-block;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.164);
+  cursor: pointer;
+  transition: background-color 0.19s, transform 0.5s ease;
+}
+
+.card:hover {
+  background-color: hsl(0, 0%, 99%);
+  transform: rotate(1deg) scale(1.01);
+}
+
+.card:active {
+  transform: rotate(0deg);
+}
+
+.card img {
+  max-width: 60%;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.466);
+  height: auto;
+  margin-bottom: 10px;
+  transition: transform 0.7s ease;
+}
+
+.card h2 {
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.767);
+  margin: 0;
+}
+
+.card p {
+  font-family: Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.61);
+}
+
+.card img:hover {
+  transform: rotate(10deg) scale(1.03);
+}
+
+.card button {
+  font-family: Arial;
+  font-size: 16px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.288);
+  padding: 4px 12px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card button:hover {
+  background-color: black;
+  color: white;
+}
+
+.card .submitted {
+  font-family: Arial;
+  background-color: rgb(7, 255, 7);
+  color: rgba(0, 0, 0, 0.562);
+}
