@@ -95,3 +95,25 @@ body {
   padding: 5px 8px;
   border-radius: 8px;
 }
+
+.category-list {
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid;
+  color: rgba(0, 0, 0, 0.732);
+  background-color: rgb(187, 255, 2);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.itemsList-list li {
+  list-style: none;
+  text-align: center;
+  margin: 3px;
+  color: rgba(0, 0, 0, 0.894);
+  cursor: pointer;
+}
+
+.itemsList-list li:hover {
+  color: rgba(0, 0, 0, 0.546);
+}
