@@ -1,11 +1,9 @@
-import ClickEvent from './ClickEvent.jsx';
-import List from './ClickEvent.jsx';
-
+import MyComponent from "./useStateHookPractice";
 function App() {
 
   return(
     <>
-      <ClickEvent/>
+      <MyComponent/>
     </>
   );
 }
