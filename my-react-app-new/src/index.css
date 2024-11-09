@@ -117,3 +117,45 @@ body {
 .itemsList-list li:hover {
   color: rgba(0, 0, 0, 0.546);
 }
+
+.counter-outter-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.counter-body {
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgb(83, 82, 82);
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.counter-display {
+  font-size: 10em;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.counter-btn {
+  font-size: 1.5em;
+  margin: 5px 10px;
+  font-family: Arial, sans-serif;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: rgb(80, 117, 117);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.counter-btn:hover {
+  background-color: rgba(80, 117, 117, 0.905);
+}
