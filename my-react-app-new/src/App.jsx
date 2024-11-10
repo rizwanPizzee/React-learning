@@ -1,10 +1,10 @@
-import MyComponent from "./onChangeEvenetHandler";
+import ColorPickerComponent from "./ColorPickerApp.jsx";
 
 function App() {
 
   return(
     <>
-     <MyComponent/>
+      <ColorPickerComponent/>
     </>
   );
 }
