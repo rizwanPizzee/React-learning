@@ -1,10 +1,10 @@
-import ColorPickerComponent from "./ColorPickerApp.jsx";
+import UpdaterFunction from './UpdaterFunction.jsx'
 
 function App() {
 
   return(
     <>
-      <ColorPickerComponent/>
+      <UpdaterFunction/>
     </>
   );
 }
