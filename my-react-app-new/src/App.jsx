@@ -1,10 +1,10 @@
-import Counter from "./Counter.jsx";
+import MyComponent from "./onChangeEvenetHandler";
 
 function App() {
 
   return(
     <>
-      <Counter/>
+     <MyComponent/>
     </>
   );
 }
