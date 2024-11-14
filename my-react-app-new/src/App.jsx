@@ -1,10 +1,10 @@
-import UpdaterFunction from './UpdaterFunction.jsx'
+import UpdateObjectComponent from './UpdateObject.jsx'
 
 function App() {
 
   return(
     <>
-      <UpdaterFunction/>
+  <UpdateObjectComponent/>
     </>
   );
 }
