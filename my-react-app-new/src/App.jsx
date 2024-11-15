@@ -1,10 +1,10 @@
-import UpdateObjectComponent from './UpdateObject.jsx'
+import UpdateArrayComponent from './UpdateArray.jsx'
 
 function App() {
 
   return(
     <>
-  <UpdateObjectComponent/>
+    <UpdateArrayComponent/>
     </>
   );
 }
