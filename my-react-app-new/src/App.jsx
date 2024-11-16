@@ -1,10 +1,11 @@
-import UpdateArrayComponent from './UpdateArray.jsx'
+import Board from './TicTacToe.jsx';
+import UpdateArrayObject from './UpdateArrayofObjects.jsx'
 
 function App() {
 
   return(
     <>
-    <UpdateArrayComponent/>
+    <UpdateArrayObject/>
     </>
   );
 }
