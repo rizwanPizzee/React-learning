@@ -1,11 +1,13 @@
 import Board from './TicTacToe.jsx';
-import UpdateArrayObject from './UpdateArrayofObjects.jsx'
+import ToDoList from './ToDoListApp.jsx';
+import ClockApp from './clockApp.jsx';
 
 function App() {
 
   return(
     <>
-    <UpdateArrayObject/>
+      <ToDoList/>
+      <ClockApp/>
     </>
   );
 }
