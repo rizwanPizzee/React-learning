@@ -356,3 +356,8 @@ body {
     font-size: 15vw;
   }
 }
+
+.cont-comp {
+  border: 1px solid gray;
+  padding: 20px;
+}

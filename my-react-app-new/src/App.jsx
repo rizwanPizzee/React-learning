@@ -3,12 +3,13 @@ import ToDoList from './ToDoListApp.jsx';
 import MyComp from './useEffectHookPractice.jsx';
 import MyClock from'./DigitalClock.jsx';
 import MyGraph from './GraphPractice.jsx';
+import ComponentA from './ComponentA.jsx';
 
 function App() {
 
   return(
     <>
-      <MyGraph/>
+      <ComponentA/>
     </>
   );
 }
