@@ -5,12 +5,13 @@ import MyClock from'./DigitalClock.jsx';
 import MyGraph from './GraphPractice.jsx';
 import ComponentA from './ComponentA.jsx';
 import RefComponent from './useRefHook.jsx'
+import Stopwatch from './StopWatch.jsx'
 
 function App() {
 
   return(
     <>
-      <RefComponent/>
+      <Stopwatch/>
     </>
   );
 }
